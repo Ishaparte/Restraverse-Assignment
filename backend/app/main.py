@@ -35,7 +35,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://employee-directory-search-system-cc.vercel.app",
+        "https://restraverse-assignment.vercel.app/",
     ],
     allow_credentials=False,
     allow_methods=["GET"],
